@@ -1,0 +1,440 @@
+
+// Variaveis
+
+$Cor-de-Fundo:  radial-gradient(83.47% 83.47% at 16.53% 16.53% 16.53, #365497,#5083ff 100%);
+
+$Menu-Sobre-Regras: #fff;
+
+// Variaveis / End
+
+// Reset
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: #F5F5F5;
+}
+
+.header{
+    width: 100%;
+    height: 76px;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 0;
+
+    .header__img img{
+        width: 110px;
+    }
+
+    .menu__moba{
+        display: none;
+    }
+
+    .nav{
+
+        .nav-item a{
+            text-decoration: none;
+            font-style: normal;
+            font-weight: bold;
+            font-size: 16px; 
+
+        }
+
+        .Regra{
+            a{
+                cursor: pointer;
+            }
+        }
+
+        .Entrar__link{
+
+            .Entrar{
+               color: #fff;
+               padding: 9px 24px;
+               background: #F3992E;
+               border-radius: 50px;
+            }
+        }
+    }
+
+    #menu-btn{
+        display: none;
+    }
+}
+
+.Regra__text{
+    position: absolute; 
+    width: 100%;
+    min-height: 150vh;
+    display: flex;
+    flex-direction: column;
+    line-height: 2rem;
+    background: #fff;
+    padding: 30px 50px;
+    transition: 0.5s line;
+    display: none;
+   
+    
+
+
+    h3{
+        font-size: 18px;
+        font-weight: bold;
+    }
+
+    .barra__Azul{
+        position: absolute;
+        top: 100%;
+        left: 0px;
+        width: 100%;
+        background-color: #5083ff;
+        height: 50px; 
+    }
+
+}
+
+.fundo__azul{
+    height: 235px;
+    width: 100%;
+    background: #5283FF;;
+}
+
+.seleciona__conta--txt{
+    width: 100%;
+    padding: 13px 0;
+    background: #F3992E;
+    
+    a{
+        color: #fff;
+        text-decoration: none;
+        font-size: 25px;
+    }
+}
+
+main{
+    width: 100%;
+    min-height: 100vh;
+
+    .info__investir{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        column-gap: 20px;
+        margin-top: 15%;
+    
+        .info__content--text{
+            width: 30%;
+            padding: 0 20px;
+            line-height: 2rem;
+
+            h2{
+                padding: 20px 0;
+                font-weight: bold;
+            }
+
+            p{
+                font-weight: 600;
+            }
+        }
+
+    }
+
+    .section__planos {
+        padding-top: 8%;
+        width: 100%;
+
+
+        .planos--tex{
+            
+            h4{
+                padding-bottom: 10px;
+                color: #000;
+                font-weight: bold;
+            }
+
+            p{
+                font-weight: 600;
+            }
+        }
+
+        .planos__card{
+            width: 100%;
+            min-height: 50vh;
+            margin-top: 73px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            column-gap: 20px;
+
+            .card__box{
+                width: 335px;
+                height: 580px;
+                background: #FFFFFF;
+                border-radius: 10px;
+                padding: 30px 35px;
+                margin-bottom: 15px;
+
+                h2{
+                    font-weight: 700;
+                    padding-bottom: 15px;
+                }
+
+                .card__mes{
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    width: 100%;
+                    padding: 10px;
+                    background: #5283FF;
+                    border-radius: 5px;
+                    font-size: 18px;
+                    color: #fff;
+                }
+
+                .min__max--p{
+                    text-align: center;
+                    padding-top: 2px;
+                }
+
+                .span__preco{
+                    color: orange;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+
+                }
+
+                .span__text{
+                    color: #5283FF;
+                }
+
+                .span__number{
+                    color: #5283FF;
+                }
+
+                .btn__link {
+                    width: 100%;
+                    background: #5283FF;
+                    border-radius: 10px;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    padding: 10px;
+                    color: #fff;
+                    text-decoration: none;
+                    font-weight: 400;
+                    font-size: 16px;
+                    margin-top: 49px;
+                }
+            }
+
+            #card__box--2{
+                width: 335px;
+                height: 580px;
+                border-radius: 10px;
+                padding: 30px 35px;
+                margin-bottom: 15px;
+
+                background: #375398;
+
+                .card__img--top{
+                    position: relative;
+                    width: 126px;
+                    height: 32px;
+                    background-image: url("img/Rectangle\ 45\ \(1\).png"); 
+                    background-repeat: no-repeat;
+                    top: -30px;
+                    margin: 0 auto;
+                }
+
+                .card__titulo__2{
+                    color: #fff;
+                }
+
+                p{
+                    color: #fff;
+                }
+
+                span{
+                    color: rgb(247, 168, 22);
+                }
+
+                .mes__2{
+                    color: #fff;
+                }
+
+                .btn__link__2 {
+                    width: 100%;
+                    background: #5283FF;
+                    border-radius: 10px;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    padding: 10px;
+                    color: #fff;
+                    text-decoration: none;
+                    font-weight: 400;
+                    font-size: 16px;
+                }
+            }
+        }
+    }
+
+    .section__vantages{
+        margin-top: 100px;
+        width: 100%;
+        height: 650px;
+        display: grid;
+        margin-bottom: 20%;
+        
+        
+
+        .Vantagens__img img{
+            width: 80%;
+            margin: 0 auto;
+            display: flex;
+            justify-content: center;
+        }
+
+        p{
+            font-weight: 600;
+            font-size: 13px;
+            width: 80%;
+            margin: 0 auto;
+            line-height: 1.5rem;
+        }
+    }
+}
+
+footer{
+    width: 100%;
+    height: 50px;
+    background: #375398;
+}
+
+
+@media (max-width: 985px) {
+
+    .header{
+        
+        .menu__moba{
+            display: block;
+            justify-content: flex-end;
+            margin: 0 80%;
+            font-size: 25px;
+        }
+
+        .nav{
+            flex-direction: column;
+            position: absolute;
+            right:  0;
+            top: -111110%;
+            line-height: 2rem;
+            font-size: 22px;
+            z-index: 1000;
+
+            .Entrar__link .Entrar {
+                color: rgb(255, 255, 255);
+                margin: 0 30px;
+                border-radius: 50px;
+                font-size: 15px;
+                font-weight: bold;
+                padding: 0;
+               
+                
+            }
+
+            &.active{
+                top: 10%;
+                transition: 0.20s line-height;
+                text-align: center;
+                background: #F5F5F5;
+                padding: 20px 0;
+                width: 200px;
+            }
+   
+        }
+    } 
+}
+
+@media (max-width: 768px) {
+    .header{
+        width: 90%;
+    }
+
+    .fundo__azul{
+        height: 200px;
+
+    }
+
+    main{
+
+
+        .info__investir{
+            flex-direction: column;
+            width: 100%;
+            row-gap: 55px;
+        
+            .info__content--text{
+                width: 90%;
+                
+               
+            }
+    
+            .info__img img{
+                width: 85%;
+            }
+        }
+
+        .planos__card{
+            flex-direction: column;
+        }
+
+        .section__vantages{
+            margin-top: 30px;
+            width: 100%;
+            height: 500px;
+            display: grid;
+            
+            
+    
+            .Vantagens__img img{
+                width: 80%;
+                margin: 0 auto;
+                display: flex;
+                justify-content: center;
+            }
+    
+            p{
+                font-weight: 600;
+                font-size: 12px;
+                width: 80%;
+                margin: 0 auto;
+                line-height: 1.5rem;
+            }
+        }
+    }
+ }
+ 
+
+@media (max-width: 667px) {
+   .header{
+       width: 90%;
+   }
+}
+
+@media (max-width: 568px) {
+    .header{
+        width: 85%;
+
+        .menu__moba{
+            margin-left: 65%;
+        }
+    }
+ }
+
+ 
