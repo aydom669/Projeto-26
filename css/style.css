@@ -41,7 +41,8 @@ body {
   background: #fff;
   padding: 30px 50px;
   transition: 0.5s line;
-  display: none; }
+  display: none;
+  z-index: 1; }
   .Regra__text h3 {
     font-size: 18px;
     font-weight: bold; }
@@ -101,7 +102,8 @@ main {
       display: flex;
       justify-content: center;
       align-items: center;
-      column-gap: 20px; }
+      column-gap: 20px;
+      z-index: -1; }
       main .section__planos .planos__card .card__box {
         width: 335px;
         height: 580px;
