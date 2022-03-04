@@ -34,18 +34,20 @@ body {
 .Regra__text {
   position: absolute;
   width: 100%;
-  min-height: 150vh;
+  min-height: 400%;
   display: flex;
   flex-direction: column;
-  line-height: 2rem;
+  line-height: 4rem;
   background: #fff;
   padding: 30px 50px;
   transition: 0.5s line;
   display: none;
   z-index: 1; }
   .Regra__text h3 {
-    font-size: 18px;
+    font-size: 23px;
     font-weight: bold; }
+  .Regra__text strong {
+    font-size: 20px; }
   .Regra__text .barra__Azul {
     position: absolute;
     top: 100%;
