@@ -230,7 +230,7 @@ footer {
       padding-top: 28px; }
     .header .nav .Entrar__link .Entrar {
       color: white;
-      margin: 0 30px;
+      margin: 0 120px;
       border-radius: 50px;
       font-size: 15px;
       font-weight: bold;
@@ -241,8 +241,7 @@ footer {
       text-align: center;
       background: #F5F5F5;
       padding: 20px 0;
-      width: 200px;
-      height: 323%;
+      width: 100%;
       line-height: 3rem;
       padding-bottom: 0; } }
 @media (max-width: 768px) {
