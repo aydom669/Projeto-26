@@ -224,7 +224,7 @@ footer {
     line-height: 2rem;
     font-size: 22px;
     z-index: 1000;
-    transition: 1s line-height; }
+    transition: 1.5s line-height; }
     .header .nav li a {
       position: relative;
       padding-top: 28px; }
@@ -284,6 +284,9 @@ footer {
   .header {
     width: 85%; }
     .header .menu__moba {
-      margin-left: 65%; } }
+      margin-left: 65%; }
+
+  .Regra__text {
+    min-height: 500%; } }
 
 /*# sourceMappingURL=style.css.map */
